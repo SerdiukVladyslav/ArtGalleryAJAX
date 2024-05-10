@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #63C9FF;
+  }
+
+  .selected-image {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .selected-image img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .selected-image img:hover {
+    transform: scale(1.1);
+  }
+  
